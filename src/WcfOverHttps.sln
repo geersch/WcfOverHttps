@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGeers.Wcf.Services", "CGeers.Wcf.Services\CGeers.Wcf.Services.csproj", "{735CEC08-BF2B-49F0-AEE4-0C58C97B6A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{C96355BF-A16C-4B2F-8309-600D692B386A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{1076C9E5-B5C9-43D3-90FA-9994432B3CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735CEC08-BF2B-49F0-AEE4-0C58C97B6A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735CEC08-BF2B-49F0-AEE4-0C58C97B6A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735CEC08-BF2B-49F0-AEE4-0C58C97B6A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735CEC08-BF2B-49F0-AEE4-0C58C97B6A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96355BF-A16C-4B2F-8309-600D692B386A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96355BF-A16C-4B2F-8309-600D692B386A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96355BF-A16C-4B2F-8309-600D692B386A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96355BF-A16C-4B2F-8309-600D692B386A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1076C9E5-B5C9-43D3-90FA-9994432B3CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1076C9E5-B5C9-43D3-90FA-9994432B3CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1076C9E5-B5C9-43D3-90FA-9994432B3CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1076C9E5-B5C9-43D3-90FA-9994432B3CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

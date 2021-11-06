@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://cgeers.wordpress.com/wcf/services" elementFormDefault="qualified" targetNamespace="http://cgeers.wordpress.com/wcf/services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/Message" />
+  <xs:element name="FileInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/Message" name="Stream" type="q1:StreamBody" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FileName" nillable="true" type="xs:string" />
+  <xs:element name="Length" type="xs:long" />
+  <xs:element name="FileReceivedInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UploadSucceeded" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Message" nillable="true" type="xs:string" />
+</xs:schema>
